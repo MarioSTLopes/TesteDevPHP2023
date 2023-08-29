@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px 60px;
+    background-color: black;
+    color: white;
+}
+
+h1, h2 {
+    color: red;
+    text-align: center;
+}
+
+.borders {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: red;
+}
+
+td {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#exportButton, #clearButton {
+    background-color: black;
+    color: red;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#exportButton:hover, #clearButton:hover {
+    background-color: red;
+    color: white;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
